@@ -8,5 +8,5 @@ import (
 
 // x/loan module sentinel errors
 var (
-    ErrWrongLoanState = sdkerrors.Register(ModuleName, 1, "wrong loan state")
+	ErrWrongLoanState = sdkerrors.Register(ModuleName, 1, "wrong loan state")
 )
